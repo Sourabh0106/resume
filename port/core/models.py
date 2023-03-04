@@ -60,8 +60,8 @@ class portfolio(models.Model):
         db_table = "portfolio"
 
 class Service(models.Model) :
-    title = models.CharField(max_length=70,verbose_name="Portfolio Title ")
-    desc = models.TextField(max_length=500,verbose_name="Portfolio Description ")
+    title = models.CharField(max_length=70,verbose_name="Job Title ")
+    desc = models.TextField(max_length=500,verbose_name="Job Description ")
 
     class Meta :
         db_table = "services"
